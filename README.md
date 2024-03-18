@@ -1,6 +1,6 @@
 # Blank Canvas Charts
 This project is built with the purpose of making the newest music available for play in CloneHero.
-![Clone-hero-react-demo](https://github.com/jvidal1997/blankcanvas2.0/assets/115720194/56970b43-69de-4d55-a80b-666e53d6bc88)
+![Clone-hero-react-demo](https://github.com/jvidal1997/blankcanvas2.0/assets/115720194/4527c0b1-adb8-431e-9bac-8efc5711cbf8)
 At this moment, it's still under construction. But will be available in the future.
 <!-- 
 ## React Development
