@@ -1,0 +1,122 @@
+.library-page-wrap {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.library-page {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    article {
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    section {
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+    }
+
+    aside {
+        background-color: #1e1e1e;
+        border: 2px solid black;
+        border-radius: 20px;
+        max-height: 31.25rem;
+    }
+}
+
+.library-list-wrapper {
+    background-color: #1e1e1e;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    min-width: 40%;
+    max-height: 31rem;
+    overflow-y: scroll;
+}
+
+.library-list {
+    list-style-type: none;
+    background-color: #1e1e1e;
+    height: 100%;
+
+    li {
+        border-bottom: 2px solid white;
+        width: 55rem;
+    }
+
+    li:first-child {
+        border-top: 2px solid white;
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        align-items: center;
+    }
+
+    h5 {
+        margin-bottom:  0;
+    }
+
+    p {
+        margin-bottom: 0;
+        margin-left: .25rem;
+    }
+
+    img {
+        height: 4rem;
+        border-radius: 50%;
+    }
+
+    button {
+        text-wrap: nowrap;
+        margin-right: 1rem;
+    }
+}
+
+.library-left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 3rem;
+
+    img {
+        height: 10rem;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    display: block;
+    position: relative;
+    right: 10px;
+    width: 5px;
+    border-radius: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#434343,#434343 1px,#111 0,#111);
+    border-radius: 16px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #434343;
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25),inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
