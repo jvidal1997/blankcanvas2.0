@@ -41,7 +41,8 @@ nav {
   align-items: center;
   width: 100vw;
   background: #1e1e1e;
-  padding: 20px;
+  padding: 10px;
+  margin-bottom: 2rem;
 }
 
 nav a {
@@ -53,12 +54,12 @@ nav a {
 
 .library-page-wrap {
   width: 100vw;
-  height: 80vh;
+  height: auto;
   overflow: hidden;
 }
 
 .library-page {
-  height: 80vh;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -168,6 +169,11 @@ footer.footer {
   position: fixed !important;
   bottom: 0 !important;
   background-color: #1e1e1e;
+}
+footer.footer .audio-player-song-label {
+  width: 100% !important;
+  position: relative;
+  top: 0.5rem;
 }
 
 .rhap_container {

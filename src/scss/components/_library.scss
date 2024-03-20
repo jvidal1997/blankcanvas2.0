@@ -1,11 +1,11 @@
 .library-page-wrap {
     width: 100vw;
-    height: 80vh;
+    height: auto;
     overflow: hidden;
 }
 
 .library-page {
-    height: 80vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;

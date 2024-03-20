@@ -1,10 +1,12 @@
 import React from "react";
-import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
+// import AudioPlayer, { RHAP_UI } from "react-h5-audio-player";
+import PlayList from "./PlayList.tsx";
 
 function MusicPlayer() {
     return (
         <footer>
-            <AudioPlayer
+            <PlayList />
+            {/* <AudioPlayer
                 autoPlay
                 src={require("../../../assets/audio/XCLUSIVO.mp3")}
                 onPlay={(e) => console.log("onPlay")}
@@ -18,7 +20,7 @@ function MusicPlayer() {
                     RHAP_UI.ADDITIONAL_CONTROLS,
                     RHAP_UI.VOLUME_CONTROLS,
                 ]}
-            />
+            /> */}
         </footer>
     );
 }

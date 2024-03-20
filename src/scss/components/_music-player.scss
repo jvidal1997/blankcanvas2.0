@@ -4,4 +4,10 @@ footer.footer {
     position: fixed !important;
     bottom: 0 !important;
     background-color: #1e1e1e;
+
+    .audio-player-song-label {
+        width: 100% !important;
+        position: relative;
+        top: .5rem;
+    }
 }

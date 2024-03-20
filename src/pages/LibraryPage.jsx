@@ -12,7 +12,7 @@ export class LibraryPage extends Component {
                             <LeftSection />
                         </section>
                         <aside className="pe-1">
-                            <div className='library-list-wrapper'>
+                            <div className='library-list-wrapper '>
                                 <SongPackList />
                             </div>
                         </aside>
